@@ -1,0 +1,1 @@
+gcc -o stable/angraNDAQ1_15m -O3 -fPIC  -Wall -W -Wstrict-prototypes -Wwrite-strings -g -ggdb  -I. stable/angraNDAQ.c -I ../AngraNDAQ/inc/ -L ../AngraNDAQ/lib ../AngraNDAQ/lib/libvme.so.1 libhiredis.a 
